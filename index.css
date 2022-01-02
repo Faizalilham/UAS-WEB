@@ -1,0 +1,114 @@
+body {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+#home {
+  width: 100%;
+}
+.carousel-inner {
+  width: 100%;
+}
+
+/* #News .row .col-sm-4 img {
+  width: 100%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+hr {
+  width: 30%;
+  height: 200px;
+}
+
+.card:hover img {
+  background-color: #212529;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+.myimage {
+  display: block;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.image:hover .image_overlay {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(209, 202, 202, 0.7);
+}
+
+/* .form-control {
+  position: absolute;
+  width: 70%;
+  height: 70px;
+  margin-right: 60px;
+  outline: none;
+  margin-left: 60px;
+}
+
+.form-control1 {
+  height: 70px;
+  background-color: white;
+} */
+
+.form-control {
+  height: 60px;
+}
+
+.corousel-item {
+  background-color: #212529;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: black;
+  background-color: #212529;
+  background-size: 100%, 100%;
+  border: 1px solid black;
+}
+
+#carouselExampleIndicators-2 .carousel-control-prev-icon {
+  left: 0px;
+}
+#carouselExampleIndicators-2 .carousel-control-next-icon {
+  right: 0px;
+}
+
+.carousel-indicators .active {
+  background-color: #212529;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+.banner {
+  margin-top: 8%;
+}

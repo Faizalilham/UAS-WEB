@@ -1,0 +1,27 @@
+body {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+@media (max-width: 750px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media (width: 750px) {
+  img {
+    width: 50px;
+    margin-top: 5%;
+  }
+}
+
+.pesan {
+  background-color: rgb(239, 253, 255);
+}
+
+a {
+  text-decoration: none;
+}
+.textarea {
+  height: 200px;
+}
